@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a16e60-ca4b-405c-95d6-134e97e59ab6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotbugs-result-WebServer_2021_12_14_19_16_32/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VVS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VVS.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +73,29 @@
       <recent name="D:\Uni\An 4\VVS\TestFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.WebServerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="VVS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebServerTest.createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
+      <option name="METHOD_NAME" value="createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,31 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebServerTest.handleRequest_Success_ServerMaintenance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebServerTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VVS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebServerTest" />
-      <option name="METHOD_NAME" value="handleRequest_Success_ServerMaintenance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebServerTest.handleRequest_Success_ServerRunning_FileNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
-      <option name="METHOD_NAME" value="handleRequest_Success_ServerRunning_FileNotFound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebServerTest.handleRequest_Success_ServerStopped" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
-      <option name="METHOD_NAME" value="handleRequest_Success_ServerStopped" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebServerTest" />
+        <item itemvalue="JUnit.WebServerTest.main" />
+        <item itemvalue="JUnit.WebServerTest.createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WebServerTest.handleRequest_NullHome_ThrowsNoSuchFileException" />
-        <item itemvalue="JUnit.WebServerTest.handleRequest_Success_ServerStopped" />
-        <item itemvalue="JUnit.WebServerTest.handleRequest_Success_ServerMaintenance" />
-        <item itemvalue="JUnit.WebServerTest.handleRequest_Success_ServerRunning_FileNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -142,12 +142,24 @@
       <updated>1639420444746</updated>
       <workItem from="1639420447444" duration="7727000" />
       <workItem from="1639491055347" duration="2788000" />
-      <workItem from="1639501015279" duration="1411000" />
+      <workItem from="1639501015279" duration="1615000" />
+      <workItem from="1639502659771" duration="678000" />
+      <workItem from="1639503356300" duration="1999000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -157,34 +169,42 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="67" key="#Project_Structure/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639420500107" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1639502182004">
+    <state x="361" y="67" key="#VisualVM_Launcher" timestamp="1639503544262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639502182004" />
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1639428186952">
+    <state x="361" y="67" key="#VisualVM_Launcher/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503544262" />
+    <state x="393" y="3" key="CommitChangelistDialog2" timestamp="1639502479805">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639428186952" />
-    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1639428186952">
+    <state x="393" y="3" key="CommitChangelistDialog2/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639502479805" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1639503542211">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639428186952" />
-    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1639428186952">
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503542211" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1639508508367">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639428186952" />
-    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1639428186952">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508367" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1639508508366">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639428186952" />
-    <state x="277" y="51" key="SettingsEditor" timestamp="1639500999775">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508366" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1639508508365">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="277" y="51" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639500999775" />
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1639501016353">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508365" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1639508508366">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639501016353" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508366" />
+    <state x="277" y="51" key="SettingsEditor" timestamp="1639503343144">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="51" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503343144" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1639503355894">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503355894" />
     <state x="498" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1639420659344">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
