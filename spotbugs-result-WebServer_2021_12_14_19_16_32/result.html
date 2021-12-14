@@ -1,0 +1,278 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+   </head>
+   <body>
+      <h1>SpotBugs Report</h1>
+      <p>Produced using <a href="https://spotbugs.github.io">SpotBugs</a>4.4.2.</p>
+      <p>Project: 
+			WebServer[VVS]</p>
+      <h2>Metrics</h2>
+      <p>349 lines of code analyzed,
+	in 3 classes, 
+	in 1 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right">2</td>
+            <td align="right">5.73</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">4</td>
+            <td align="right">11.46</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>6</b>
+            </td>
+            <td align="right">
+               <b>17.19</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Summary</h2>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_I18N">Internationalization Warnings</a>
+            </td>
+            <td align="right">2</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+            </td>
+            <td align="right">4</td>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>6</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>Warnings</h1>
+      <p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+      <h2>
+         <a name="Warnings_I18N">Internationalization Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#DM_DEFAULT_ENCODING">Reliance on default encoding</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>Found reliance on default encoding in WebServer.readInputStream(Socket): new java.io.InputStreamReader(InputStream)<br/>
+                  <br/>
+                  <br/>In file WebServer.java WebServer.java,
+					
+						line 103 103<br/>In class WebServer<br/>In method WebServer.readInputStream(Socket)<br/>Called method new java.io.InputStreamReader(InputStream)<br/>At WebServer.java:[line 103]<br/>At WebServer.java:[line 103]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#DM_DEFAULT_ENCODING">Reliance on default encoding</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>Found reliance on default encoding in WebServer.sendOutputStream(Socket, Path, String): String.getBytes()<br/>
+                  <br/>
+                  <br/>In file WebServer.java WebServer.java,
+					
+						line 129 129<br/>In class WebServer<br/>In method WebServer.sendOutputStream(Socket, Path, String)<br/>Called method String.getBytes()<br/>At WebServer.java:[line 129]<br/>At WebServer.java:[line 129]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="Warnings_STYLE">Dodgy code Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#DMI_HARDCODED_ABSOLUTE_FILENAME">Code contains a hard coded reference to an absolute pathname</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Hard coded reference to an absolute pathname in WebServerTest.lambda$sendOutputStream_NullSocket_ThrowsNullPointerException$6(WebServer)<br/>
+                  <br/>
+                  <br/>In file WebServerTest.java WebServerTest.java,
+					
+						line 208 208<br/>In class WebServerTest<br/>In method WebServerTest.lambda$sendOutputStream_NullSocket_ThrowsNullPointerException$6(WebServer)<br/>File name C:/Users/ADMIN/Desktop/WebPages/a.html<br/>At WebServerTest.java:[line 208]<br/>At WebServerTest.java:[line 208]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#DMI_HARDCODED_ABSOLUTE_FILENAME">Code contains a hard coded reference to an absolute pathname</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Hard coded reference to an absolute pathname in WebServerTest.sendOutputStream_Success_ServerRunning()<br/>
+                  <br/>
+                  <br/>In file WebServerTest.java WebServerTest.java,
+					
+						line 190 190<br/>In class WebServerTest<br/>In method WebServerTest.sendOutputStream_Success_ServerRunning()<br/>File name C:/Users/ADMIN/Desktop/WebPages/a.html<br/>At WebServerTest.java:[line 190]<br/>At WebServerTest.java:[line 190]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#SF_SWITCH_FALLTHROUGH">Switch statement found where one case falls through to the next case</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Switch statement found in WebServer.sendOutputStream(Socket, Path, String) where one case falls through to the next case<br/>
+                  <br/>
+                  <br/>In file WebServer.java WebServer.java,
+					
+						lines 141 141
+						    to 145 145<br/>In class WebServer<br/>In method WebServer.sendOutputStream(Socket, Path, String)<br/>At WebServer.java:[lines 141-145]<br/>At WebServer.java:[lines 141-145]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#SF_SWITCH_NO_DEFAULT">Switch statement found where default case is missing</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Switch statement found in WebServer.sendOutputStream(Socket, Path, String) where default case is missing<br/>
+                  <br/>
+                  <br/>In file WebServer.java WebServer.java,
+					
+						lines 124 124
+						    to 154 154<br/>In class WebServer<br/>In method WebServer.sendOutputStream(Socket, Path, String)<br/>At WebServer.java:[lines 124-154]<br/>At WebServer.java:[lines 124-154]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>
+         <a name="Details">Warning Types</a>
+      </h1>
+      <h2>
+         <a name="DMI_HARDCODED_ABSOLUTE_FILENAME">Code contains a hard coded reference to an absolute pathname</a>
+      </h2>
+
+<p>This code constructs a File object using a hard coded to an absolute pathname
+(e.g., <code>new File("/home/dannyc/workspace/j2ee/src/share/com/sun/enterprise/deployment");</code>
+</p>
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="DM_DEFAULT_ENCODING">Reliance on default encoding</a>
+      </h2>
+
+<p> Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  </p>
+
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="SF_SWITCH_NO_DEFAULT">Switch statement found where default case is missing</a>
+      </h2>
+
+  <p> This method contains a switch statement where default case is missing.
+  Usually you need to provide a default case.</p>
+  <p>Because the analysis only looks at the generated bytecode, this warning can be incorrect triggered if
+the default case is at the end of the switch statement and the switch statement doesn't contain break statements for other
+cases.
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="SF_SWITCH_FALLTHROUGH">Switch statement found where one case falls through to the next case</a>
+      </h2>
+
+  <p> This method contains a switch statement where one case branch will fall through to the next case.
+  Usually you need to end this case with a break or return.</p>
+
+    <p>
+         <br/>
+         <br/>
+      </p>
+   </body>
+</html>
