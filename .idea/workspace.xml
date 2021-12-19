@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a16e60-ca4b-405c-95d6-134e97e59ab6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClickListenerStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClickListenerStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuiServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFiles/asdf/asdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestFiles/Different/different.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFiles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestFiles/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VVS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VVS/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VVS/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VVS/WebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VVS/WebServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VVS/WebServerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -22,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +41,11 @@
     <exportBugCollectionCreateSubDirectory>true</exportBugCollectionCreateSubDirectory>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="22F5MEfmK2ekiRttTcdVBaU3mZ6" />
@@ -62,25 +75,40 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Uni\An 4\VVS" />
-      <recent name="D:\Uni\An 4\VVS\TestFiles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Uni\An 4\VVS" />
       <recent name="D:\Uni\An 4\VVS\TestFiles" />
       <recent name="D:\Uni\An 4\VVS\TestFiles\Images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Uni\An 4\VVS\src" />
+      <recent name="D:\Uni\An 4\VVS" />
+      <recent name="D:\Uni\An 4\VVS\TestFiles" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebServerTest">
+  <component name="RunManager" selected="Application.GuiServer">
+    <configuration name="GuiServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuiServer" />
+      <module name="VVS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="VVS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerGUI" />
       <module name="VVS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,26 +119,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebServerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebServerTest.createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
-      <option name="METHOD_NAME" value="createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebServerTest.handleRequest_NullHome_ThrowsNoSuchFileException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
-      <option name="METHOD_NAME" value="handleRequest_NullHome_ThrowsNoSuchFileException" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebServerTest" />
+        <item itemvalue="Application.GuiServer" />
+        <item itemvalue="Application.ServerGUI" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WebServerTest" />
         <item itemvalue="JUnit.WebServerTest.main" />
-        <item itemvalue="JUnit.WebServerTest.createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" />
-        <item itemvalue="JUnit.WebServerTest.handleRequest_NullHome_ThrowsNoSuchFileException" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +159,8 @@
       <workItem from="1639502659771" duration="678000" />
       <workItem from="1639503356300" duration="2221000" />
       <workItem from="1639729841135" duration="77000" />
-      <workItem from="1639914667875" duration="1438000" />
+      <workItem from="1639914667875" duration="2820000" />
+      <workItem from="1639938120721" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -180,6 +189,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="67" key="#VisualVM_Launcher/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503544262" />
+    <state x="498" y="192" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1639924742834">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="498" y="192" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924742834" />
     <state x="393" y="3" key="CommitChangelistDialog2" timestamp="1639502479805">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -189,51 +202,60 @@
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503542211" />
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1639729915658" />
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1639924371165">
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1639940666626">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371165" />
-    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1639924371164">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885458" />
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1639940666626" />
+    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1639940666626">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371164" />
-    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1639924371164">
+    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885458" />
+    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1639940666626" />
+    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1639940666626">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371164" />
-    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1639924371165">
+    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885458" />
+    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1639940666626" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1639940666626">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371165" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1639924109284">
+    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885458" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1639940666626" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1639925885459">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1639924109284">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885459" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1639925885459">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1639924109284">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885459" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1639925885459">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1639924109284">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885459" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1639925885459">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
-    <state x="277" y="51" key="SettingsEditor" timestamp="1639503343144">
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925885459" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1639939618653">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="51" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503343144" />
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1639729887697">
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1639939618653" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1639938130334">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503355894" />
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1639729887697" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1639938130334" />
     <state x="498" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1639420659344">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="498" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639420659344" />
+    <state x="555" y="289" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1639925761977">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="555" y="289" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639925761977" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebServer$WebServerTest_handleRequest_NullHome_ThrowsNoSuchFileException.ic" NAME="WebServerTest.handleRequest_NullHome_ThrowsNoSuchFileException Coverage Results" MODIFIED="1639427183160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

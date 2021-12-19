@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -13,6 +14,8 @@ public class WebServer extends Thread {
     private int port;
     private String home;
     private String status;
+    private JPanel panel1;
+    private JTextField serverStatusServerAdressTextField;
 
 
     public WebServer(final int port, final String home, final String status) {
@@ -201,7 +204,7 @@ class Main {
     public static void main(String[] args) {
         WebServer Server = new WebServer(8080,
                 "C:/Users/ADMIN/Desktop/WebPages",
-                "Stopped");
+                "Running");
         for (;;) {
             try {
                 Server.handleRequest();
