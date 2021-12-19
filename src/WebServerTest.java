@@ -23,8 +23,8 @@ public class WebServerTest {
     @Test
     public void setHome_GetHome() {
         WebServer Server = new WebServer(port, "C:/Users/ADMIN/Desktop/WebPages", "Running");
-        Server.setHome("C:/Users/ADMIN/Desktop/WebPages/ASDF");
-        Assertions.assertEquals("C:/Users/ADMIN/Desktop/WebPages/ASDF", Server.getHome());
+        Server.setHome("C:/Users/ADMIN/Desktop/WebPages/Different");
+        Assertions.assertEquals("C:/Users/ADMIN/Desktop/WebPages/Different", Server.getHome());
     }
 
     @Test
@@ -224,7 +224,7 @@ public class WebServerTest {
 
     @Test
     public void handleRequest_Success_ServerRunning_FileNotFound() {
-        /* Connect to localhost:8080/asdf.html when running this test */
+        /* Connect to localhost:8080/different.html when running this test */
         WebServer Server = new WebServer(port, "C:/Users/ADMIN/Desktop/WebPages", "Running");
         try {
             Server.handleRequest();

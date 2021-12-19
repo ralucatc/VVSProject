@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a16e60-ca4b-405c-95d6-134e97e59ab6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VVS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VVS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFiles/asdf/asdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestFiles/Different/different.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFiles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestFiles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VVS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VVS/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VVS/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VVS/WebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +68,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Uni\An 4\VVS" />
+      <recent name="D:\Uni\An 4\VVS\TestFiles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Uni\An 4\VVS" />
       <recent name="D:\Uni\An 4\VVS\TestFiles" />
       <recent name="D:\Uni\An 4\VVS\TestFiles\Images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Uni\An 4\VVS\TestFiles" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.WebServerTest">
@@ -123,9 +128,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WebServerTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WebServerTest.main" />
         <item itemvalue="JUnit.WebServerTest.createServerSocket_PortOutOfRange_ThrowsIllegalArgumentException" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WebServerTest.handleRequest_NullHome_ThrowsNoSuchFileException" />
       </list>
     </recent_temporary>
@@ -144,7 +149,9 @@
       <workItem from="1639491055347" duration="2788000" />
       <workItem from="1639501015279" duration="1615000" />
       <workItem from="1639502659771" duration="678000" />
-      <workItem from="1639503356300" duration="1999000" />
+      <workItem from="1639503356300" duration="2221000" />
+      <workItem from="1639729841135" duration="77000" />
+      <workItem from="1639914667875" duration="1438000" />
     </task>
     <servers />
   </component>
@@ -177,34 +184,52 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="393" y="3" key="CommitChangelistDialog2/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639502479805" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1639503542211">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1639729915658">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503542211" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1639508508367">
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1639729915658" />
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1639924371165">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508367" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1639508508366">
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371165" />
+    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1639924371164">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508366" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1639508508365">
+    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371164" />
+    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1639924371164">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508365" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1639508508366">
+    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371164" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1639924371165">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639508508366" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924371165" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1639924109284">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1639924109284">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1639924109284">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1639924109284">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639924109284" />
     <state x="277" y="51" key="SettingsEditor" timestamp="1639503343144">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="51" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503343144" />
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1639503355894">
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1639729887697">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1639503355894" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1639729887697" />
     <state x="498" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1639420659344">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

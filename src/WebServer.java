@@ -69,7 +69,7 @@ public class WebServer extends Thread {
             socket.close();
             System.out.println("Closed server socket on port: " + socket.getLocalPort());
         } catch (NullPointerException nullPointerException) {
-            System.out.println("Socket is Null.");
+            System.out.println("Socket is null.");
             throw nullPointerException;
         } catch (Exception e) {
             System.out.println("Error closing server socket on port: " + socket.getLocalPort());
@@ -151,7 +151,7 @@ public class WebServer extends Thread {
                     out.write("\r\n\r\n".getBytes());
                 }
                 case "Stopped": {
-                    System.out.println("Request made while Web Server is stopped.");
+                    System.out.println("Web Server is stopped.");
                 }
                 default: {
                     System.out.println("The current Web Server status is not defined.");
@@ -201,7 +201,7 @@ class Main {
     public static void main(String[] args) {
         WebServer Server = new WebServer(8080,
                 "C:/Users/ADMIN/Desktop/WebPages",
-                "Running");
+                "Stopped");
         for (;;) {
             try {
                 Server.handleRequest();
